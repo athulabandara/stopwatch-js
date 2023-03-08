@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+.main-outer{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+
+}
+.inner{
+    width: 300px;
+    height: auto;
+    min-height: 500px;
+    border: solid 1px #34495e;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px black;
+    display: flex;
+    flex-direction: column;
+    background-color: #BDC3C7;
+
+
+
+}
+.inner .top{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    border-bottom: 1px solid darkgray;
+    box-shadow: black 0.01px 0.1px 1px;
+    background-color: #34495E;
+
+}
+.top-left{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: space-between;
+
+
+}
+.top-right{
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time-outer{
+
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    box-shadow: 1px 4px 9px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://th.bing.com/th/id/R.44a63ab36f3fb07ae4a1cc91159dfe06?rik=SeajP4BU2G2wvw&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-left button:hover{
+    background-color: rebeccapurple;
+    color: white;
+}
+.lap-outer{
+
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.time{
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Tilt Prism', serif;
+    color: darkgray;
+
+}
+.row{
+    margin-top: 10px;
+}

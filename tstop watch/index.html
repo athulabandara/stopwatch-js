@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<body>
+<div class="main-outer">
+    <div class="inner">
+        <div class="top">
+            <div class="top-left">
+                <button class="btn btn-sm btn-primary" onclick="calculate()">Start</button>
+                <button onclick="lap()" class="btn btn-sm btn-dark">Lap</button>
+                <button onclick="reset()" class="btn btn-sm btn-danger">reset</button>
+            </div>
+            <div class="top-right">
+                <div class="time-outer">
+                    <p class="time">
+                        <span id="th">00</span> :
+                        <span id="tm">00</span> :
+                        <span id="ts">00</span> :
+                        <span id="tms">00</span>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="1 row">
+                <div class="lap-outer col-12" id="row1">Laps
+                    <p class="para" id="laps">
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script src="stopwatch.js"></script>
+
+</body>
+</html>
